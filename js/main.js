@@ -6,7 +6,7 @@ function download(filename, text) {
   result.setAttribute('download', filename);
   result.innerHTML = `Download <span>${filename}</span>`;
 
-  element.click();
+  result.click();
 }
 
 fileInput.addEventListener('change', (event) => {
