@@ -2,7 +2,7 @@ const fileInput = document.querySelector('input[type="file"]');
 const result = document.querySelector('.result');
 
 function download(filename, text) {
-  result.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  result.setAttribute('href', 'data:text/srt;charset=utf-8,' + encodeURIComponent(text));
   result.setAttribute('download', filename);
   result.innerHTML = `Download <span>${filename}</span>`;
 
