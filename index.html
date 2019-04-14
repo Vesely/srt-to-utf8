@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Convert subtitles to UTF-8</title>
+
+      <link rel="stylesheet" href="css/main.scss" />
+  </head>
+  <body>
+    <section>
+      <h1>Convert subtitles to UTF-8</h1>
+      <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="data" accept=".srt" class="file-input">
+        <p>
+          Drag your <strong>.srt</strong> file here or <strong>click</strong> in this area.
+        </p>
+        <!--
+          <input type="submit" value="Convert" name="submit" class="button">
+        -->
+      </form>
+
+      <a href="#" class="result button"></a>
+    </section>
+  </body>
+
+  <script src="js/main.js"></script>
+</html>

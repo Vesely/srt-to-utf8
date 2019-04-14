@@ -1,0 +1,17 @@
+{
+  "name": "srt-to-utf8",
+  "version": "1.0.0",
+  "author": "David Veselý",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel *.html *.scss",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+  }
+}
