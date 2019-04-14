@@ -4,7 +4,6 @@
   "author": "David Veselý",
   "repository": "https://github.com/Vesely/srt-to-utf8.git",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev": "parcel *.html *.scss",
     "build": "parcel build index.html --public-url ./"
